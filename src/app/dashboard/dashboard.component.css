@@ -227,21 +227,6 @@
   }
 
 
-  footer {
-    margin-top: 8px;
-    display: flex;
-    align-items: center;
-    line-height: 20px;
-  }
-
-  footer a {
-    display: flex;
-    align-items: center;
-  }
-
-
-
-
   /* Responsive Styles */
 
 
@@ -399,4 +384,56 @@ p {
 .partnership__img img {
   max-width: 500px;
   max-height: 700px;
+}
+
+.footer {
+ width: 100%;
+ margin-top: 8px;
+ line-height: 1rem;
+ background-color: blue;
+ color: white;
+}
+
+.footer__upper{
+  display: flex;
+  text-align: center;
+
+}
+
+.upper--Faqs {
+  width:20%;
+  padding: 0.05em;
+  margin-left: 1.5em;
+}
+
+.upper--investments {
+  width:20%;
+  padding: 0.05em;
+
+}
+.upper--socials {
+  width:30%;
+  padding: 0.05em;
+
+}
+
+.upper--socials img {
+  max-width:20px;
+  max-height: 20px;
+  padding:3px;
+
+}
+
+.vendors img {
+  width:30%;
+  background-color: white;
+  padding:3px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.footer__lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
