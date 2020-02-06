@@ -315,6 +315,45 @@
   width: 30%;
   float: left;
   text-align: center;
-  margin-right: 0.5rem;
-  padding: 0.5rem;
+  margin-right: 1rem;
+  padding: 0.75rem;}
+
+.investment {
+  clear: both;
+  background-color: blue;
+  width: 100%;
+  color:white;
+  display: flex;
 }
+
+.investment__body {
+  width: 50%;
+  padding: 2em;
+
+
+}
+
+.investment__body span{
+  margin-left: 0.5rem;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.investment__body p {
+  padding: 1rem;
+  font-size: 1em;
+}
+
+
+.investment__img {
+  width: 50%;
+  margin-top: 5em;
+
+}
+
+.investment__img img {
+  max-width: 400px;
+  max-height: 500px;
+}
+
+
