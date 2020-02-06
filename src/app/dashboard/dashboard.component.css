@@ -132,6 +132,9 @@
   }
 }
 
+.landing {
+  z-index: -20;
+}
 
   .landing--inner {
     background-color: white;
@@ -162,7 +165,6 @@
   .landing--outer {
       background-color: white;
       padding-top: 2rem;
-      padding-bottom: 2rem;
       text-align: center;
   }
 
@@ -200,10 +202,10 @@
     transition: transform .25s ease-out;
   }
 
-  .img--landing {
-    max-width: 700px;
-    max-height: 500px;
-    display: inline-block;
+  .landing--outer img {
+    margin-top: 5em;
+    max-width: 500px;
+    max-height: 600px;
   }
 
   p  h5 {
@@ -212,21 +214,6 @@
     font-size: 1rem;
   }
 
-  .card {
-    border-radius: 4px;
-    border: 1px solid #eee;
-    background-color: #fafafa;
-    height: 40px;
-    width: 200px;
-    margin: 0 8px 16px;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s ease-in-out;
-    line-height: 24px;
-  }
 
 
   a,
@@ -256,34 +243,7 @@
 
 
   /* Responsive Styles */
-  @media screen and (max-width: 767px) {
 
-    .card-container > *:not(.circle-link) ,
-    .terminal {
-      width: 100%;
-    }
-
-    .card:not(.highlight-card) {
-      height: 16px;
-      margin: 8px 0;
-    }
-
-    .card.highlight-card span {
-      margin-left: 72px;
-    }
-
-    svg#rocket-smoke {
-      right: 120px;
-      transform: rotate(-5deg);
-    }
-  }
-
-  @media screen and (max-width: 575px) {
-    svg#rocket-smoke {
-      display: none;
-      visibility: hidden;
-    }
-  }
 
 .whyVersa__intro {
   text-align: center;
@@ -291,7 +251,7 @@
   width: 100%;
 }
 
-.whyVersa__intro h2 {
+ h2 {
   color:  rgb(132, 130, 238);
   width: 100%;
   font-size: 3em;
@@ -329,8 +289,6 @@
 .investment__body {
   width: 50%;
   padding: 2em;
-
-
 }
 
 .investment__body span{
@@ -339,9 +297,10 @@
   font-weight: bold;
 }
 
-.investment__body p {
+p {
   padding: 1rem;
-  font-size: 1em;
+  font-size: 1.30em;
+  text-align: left;
 }
 
 
@@ -357,3 +316,87 @@
 }
 
 
+.portfolios {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url(C:\Users\Ihuoma\training\Versa\src\assets\investment-strategy.svg);
+}
+
+.portfolios header {
+  color:  rgb(132, 130, 238);
+  width: 100%;
+  font-size: 2.5em;
+  margin: 1.5em;
+  padding: 0.5em;
+}
+
+.portfolios--types {
+  display:flex;
+  border-radius: 15%;
+}
+
+.portfolios--types img {
+   max-width: 350px;
+   max-height: 400px;
+   margin-right: 1em;
+   margin-top: -1.25em;
+   border-radius: 20px;
+}
+.agriculture {
+  width:100%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: 0.30em;
+}
+
+.transportation {
+  width:100%;
+  background-color: whitesmoke;
+  margin: 0.30em;
+  border-radius: 20px;
+}
+
+.real_estate {
+  width:100%;
+  background-color: whitesmoke;
+  margin: 0.30em;
+  border-radius: 20px;
+}
+
+.agriculture h2  {
+  margin-top: 1.50em;
+}
+
+.partnership {
+  display:flex;
+  width:100%;
+}
+
+.partnership__body {
+  width:50%;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.partnership__img {
+  width: 100%;
+  margin: 1em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.partnership__body .p__title {
+  color: rgb(132, 130, 238);
+  font-size: 2.5em;
+  padding-left: 1em;
+}
+
+.partnership__body .p__card {
+  font-size: 1.5em;
+}
+
+.partnership__img img {
+  max-width: 500px;
+  max-height: 700px;
+}
