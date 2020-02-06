@@ -4,6 +4,7 @@
   display: block;
   width: 100%;
   padding: 1rem;
+  position: fixed;
 }
 
 .navbar__logo img {
@@ -205,9 +206,10 @@
     display: inline-block;
   }
 
-  p {
+  p  h5 {
     margin: 2px;
     padding: 0.5em;
+    font-size: 1rem;
   }
 
   .card {
@@ -283,3 +285,36 @@
     }
   }
 
+.whyVersa__intro {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.whyVersa__intro h2 {
+  color:  rgb(132, 130, 238);
+  width: 100%;
+  font-size: 3em;
+}
+
+.whyVersa__intro h3 {
+  width: 100%;
+  font-size: 1.25em;
+}
+
+.whyVersa__body {
+  flex-direction: row;
+}
+
+.whyVersa__body img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.whyVersa__body .outline {
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
